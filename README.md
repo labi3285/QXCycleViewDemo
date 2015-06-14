@@ -3,7 +3,7 @@ A new kind of cycle image viewing control item.（新型图片轮播器）
 
 Created with three imageViews, staying one by one, swiping leads to the exchange order and data reloading.
 
-You can create it usuing basic init method:
+You can create it using basic init method:
 ```objc
 
     QXCycleView *cycleView = [[QXCycleView alloc] init];
