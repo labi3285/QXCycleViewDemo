@@ -13,7 +13,6 @@ You can create it usuing basic init method:
 
 Datasource is added like showing below: (only paths, which may not causes the rise in memery)
 ```objc
-    // 添加数据源
     cycleView.imagePaths = @[
                              [[NSBundle mainBundle] pathForResource:@"00.jpg" ofType:nil],
                              [[NSBundle mainBundle] pathForResource:@"01.jpg" ofType:nil],
